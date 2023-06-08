@@ -1,0 +1,46 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: black;
+}
+.planet {
+	background-image: url(/public/backgroundimg3.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+/*ul.solarsystem:hover li {animation-play-state: paused;} */
+section {
+	background-image: url(/public/secticonTwo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* /* height: 50vh; */
+	margin-top: -18rem;
+}
+.hero-image {
+	background-image: url(/public/Group\ 2.png);
+	clip-path: polygon(100% 0, 100% 68%, 0 89%, 0 0);
+}
+
+@media (max-width: 768px) {
+	.hero-image {
+		background-image: url(/public/iphone2.png);
+		clip-path: polygon(100% 0, 100% 68%, 0 79%, 0 0);
+		/* height: 85vh; */
+	}
+	section {
+		background-image: url(/public/Group\ 3.png);
+		/* /* margin-top: -9rem; */
+
+		height: auto;
+	}
+	body {
+		background-color: black;
+		/* overflow: hidden; */
+	}
+}
